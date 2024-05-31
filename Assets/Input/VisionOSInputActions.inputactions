@@ -1,0 +1,82 @@
+{
+    "name": "VisionOSInputActions",
+    "maps": [
+        {
+            "name": "VisionPro2D",
+            "id": "984eea9e-53e7-4cbb-92d1-92517c4834c9",
+            "actions": [
+                {
+                    "name": "TouchTap",
+                    "type": "Button",
+                    "id": "b4267b7b-696b-46bd-af1e-c0028b5a67dd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TouchPosition",
+                    "type": "Value",
+                    "id": "05f733f2-e1cd-496e-ad34-923b368fceb8",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "720ef867-d056-4504-b12c-eca1c212ce4b",
+                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchTap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f25168d1-b5b5-4d43-92b0-3f735fbe6097",
+                    "path": "<Touchscreen>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "VisionProVR",
+            "id": "f44f8387-80c4-4f5f-ac20-bc4a6f6e8646",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "13efdf57-ebda-4f02-9319-2a82209195b5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d26bf584-7830-4216-99a2-915ef83a3416",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
